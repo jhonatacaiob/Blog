@@ -1,0 +1,53 @@
+baseURL = 'https://jhowtromundo.site/'
+languageCode = 'pt-BR'
+title = 'De Outro Mundo'
+theme = 'anubis2'
+timeZone='America/Recife'
+defaultContentLanguage = 'pt'
+rssLimit = 30
+
+[pagination]
+pagerSize = 5
+
+[params.author]
+name = "Jhow"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+
+[[menu.main]]
+name = "Posts"
+identifier = "posts"
+url = "/posts/"
+weight = 4
+
+[markup.goldmark.renderer]
+unsafe = true # Enable unsafe mode to have a better experience
+
+[markup.highlight]
+style              = 'catppuccin-mocha'
+
+[params.anubis2]
+  colorTheme = "auto"
+
+[params]
+  dateform        = "02 de Jan de 2006"
+  dateformShort   = "02 de Jan de 2006"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04"
+
+  disableReadOtherPosts = true
+
+  github = "https://github.com/jhonatacaiob"
+  [params.contact]
+    email = 'jhonatacaiob@gmail.com'
+
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "feed"
