@@ -3,7 +3,7 @@
 
   <channel>
     <title>De Outro Mundo</title>
-    <link>http://localhost:1313/</link>
+    <link>https://jhowtromundo.site/</link>
     <description>Recent blog posts on De Outro Mundo</description>
     
     <generator>Hugo (https://gohugo.io)</generator>
@@ -16,12 +16,12 @@
     
     <lastBuildDate>Mon, 09 Mar 2026 22:57:01 -0300</lastBuildDate>
     
-    <atom:link href="http://localhost:1313/posts/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jhowtromundo.site/posts/feed.xml" rel="self" type="application/rss+xml" />
     
 
     <item>
       <title>Meu Primeiro blogpost</title>
-      <link>http://localhost:1313/posts/primeiro-post/</link>
+      <link>https://jhowtromundo.site/posts/primeiro-post/</link>
       <pubDate>Mon, 09 Mar 2026 22:57:01 -0300</pubDate>
       
       <author></author>
@@ -37,7 +37,7 @@ Pretendo escrever a respeito das coisas que eu gosto de ler, de ouvir, de jogar 
 Esperem posts sobre cultura, auto-hospedagem, música estranha, RPG narrativo, Tartarugas Ninja, história local, e o que mais der vontade de escrever.
 
       </description>
-      <guid isPermaLink="true">http://localhost:1313/posts/primeiro-post/</guid>
+      <guid isPermaLink="true">https://jhowtromundo.site/posts/primeiro-post/</guid>
     </item>
     
   </channel>
