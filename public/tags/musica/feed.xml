@@ -16,7 +16,7 @@
     
     <lastBuildDate>Wed, 11 Mar 2026 21:39:52 -0300</lastBuildDate>
     
-    <atom:link href="https://jhowtromundo.site/posts/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jhowtromundo.site/tags/musica/feed.xml" rel="self" type="application/rss+xml" />
     
 
     <item>
@@ -38,28 +38,6 @@ O album parece permear diferentes momentos de um término. As primeiras horas de
 
       </description>
       <guid isPermaLink="true">https://jhowtromundo.site/posts/lupe-de-lupe-amor/</guid>
-    </item>
-    
-
-    <item>
-      <title>Meu Primeiro blogpost</title>
-      <link>https://jhowtromundo.site/posts/primeiro-post/</link>
-      <pubDate>Mon, 09 Mar 2026 22:57:01 -0300</pubDate>
-      
-      <author></author>
-
-      
-      
-      
-      
-
-      <description>
-       ## Meu primeiro post Estou começando esse blog numa tentativa de escrever todo dia.
-Pretendo escrever a respeito das coisas que eu gosto de ler, de ouvir, de jogar e de acompanhar.
-Esperem posts sobre cultura, auto-hospedagem, música estranha, RPG narrativo, Tartarugas Ninja, história local, e o que mais der vontade de escrever.
-
-      </description>
-      <guid isPermaLink="true">https://jhowtromundo.site/posts/primeiro-post/</guid>
     </item>
     
   </channel>

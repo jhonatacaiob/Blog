@@ -2,7 +2,6 @@
 title: "Meu Primeiro blogpost"
 date: 2026-03-09T22:57:01-03:00
 draft: false
-toc: true
 slug: "primeiro-post"
 tags:
   - untagged
