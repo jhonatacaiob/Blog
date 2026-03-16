@@ -1,7 +1,7 @@
 +++
 date = '2026-03-11T21:39:52-03:00'
 draft = false
-title = 'Lupe De Lupe Amor'
+title = 'Lupe De Lupe - Amor'
 slug = 'lupe-de-lupe-amor'
 tags = ["musica"]
 +++
