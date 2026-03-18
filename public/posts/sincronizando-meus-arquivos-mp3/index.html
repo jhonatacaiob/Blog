@@ -17,19 +17,28 @@
 <meta name="theme-name" content="Anubis2">
 <meta name="theme-version" content="1.5.0">
 
-<title>Posts - De Outro Mundo</title>
+<title>Sincronizando minha coleção de música com syncthing - De Outro Mundo</title>
 
-<meta name="description" content="">
+<meta name="description" content="
+
+    
+        ##
+    
+    Sincronizando minha coleção de música com syncthing
+
+
+Ultimamente, tenho trabalhado em transformar meu velho Sansung A53 em um dispositivo offline-first, onde não vai entrar uma unica unidade de software proprietário, dedicado a criação e consumo de mídias. To chamando esse projeto de SketchPhone.
+Um dos passos me dói é o consumo de músicas. Como escutar música de forma offline num mundo onde o spotify existe?
+Faça igual aos antigos gregos e mesopotamicos e baixe mp3!!!!!!!">
 <meta name="author" content="map[name:Jhow]">
 <meta name="copyright" content="map[name:Jhow]">
 <meta name="generator" content="Hugo 0.155.3">
-<link rel="canonical" href="https://jhowtromundo.site/posts/">
+<link rel="canonical" href="https://jhowtromundo.site/posts/sincronizando-meus-arquivos-mp3/">
 
 
 
 
 
-<link rel="alternate" type="application/rss+xml" href="/posts/feed.xml" title="De Outro Mundo" />
 <link rel="icon" type="image/x-icon" href="https://jhowtromundo.site/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://jhowtromundo.site/apple-touch-icon.png">
 
@@ -350,29 +359,17 @@
         </header>
         <main id="main" tabindex="-1">
             
-    <div class="index-content">
-        
-    </div>
-
-    <div class="articles h-feed">
-        <h1 class="post-title">Posts</h1>
-        
-        
-
-        
-        
-
-        
-            <div class="post-short-list h-entry">
-                <div class="post-header">
-                    <header>
-                        <h2 class="p-name post-title"><a class="u-url" href="/posts/sincronizando-meus-arquivos-mp3/">Sincronizando minha coleção de música com syncthing</a></h2>
-                        
-
-                    </header>
-                </div>
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
                 
                 
+                
+                <h1 class="p-name post-title ">Sincronizando minha coleção de música com syncthing</h1>
+                
+
+            </header>
+            
 
 
 
@@ -408,93 +405,77 @@
     </div>
 </div>
 
-            </div>
-        
-            <div class="post-short-list h-entry">
-                <div class="post-header">
-                    <header>
-                        <h2 class="p-name post-title"><a class="u-url" href="/posts/lupe-de-lupe-amor/">Lupe De Lupe - Amor</a></h2>
-                        
-
-                    </header>
-                </div>
-                
-                
-
-
-
-<div class="post-info noselect">
-    
-        <div class="post-date dt-published">
-            <time datetime="2026-03-11">2026-03-11</time>
-            
         </div>
-    
-
-    <a class="post-hidden-url u-url" href="/posts/lupe-de-lupe-amor/">/posts/lupe-de-lupe-amor/</a>
-    <a href="https://jhowtromundo.site/" class="p-name p-author post-hidden-author h-card" rel="me">map[name:Jhow]</a>
+        
 
 
-    <div class="post-taxonomies">
-        
-        
-            <ul class="post-tags">
-                
-                    
-                    <li><a href="/tags/musica">#musica</a></li>
-                
-            </ul>
-        
-        
-    </div>
+
+
+
+  
+  
+
+
+
+<script>
+  var toc = document.querySelector(".toc");
+  if (toc) {
+    toc.addEventListener("click", function () {
+      if (event.target.tagName !== "A") {
+        event.preventDefault();
+        if (this.open) {
+          this.open = false;
+          this.classList.remove("expanded");
+        } else {
+          this.open = true;
+          this.classList.add("expanded");
+        }
+      }
+    });
+  }
+</script>
+
+        <div class="content e-content">
+            <h1 id="sincronizando-minha-coleção-de-música-com-syncthing" >
+<div>
+    <a href="#sincronizando-minha-cole%c3%a7%c3%a3o-de-m%c3%basica-com-syncthing">
+        ##
+    </a>
+    Sincronizando minha coleção de música com syncthing
 </div>
+</h1>
+<p>Ultimamente, tenho trabalhado em transformar meu velho Sansung A53 em um dispositivo offline-first, onde não vai entrar uma unica unidade de software proprietário, dedicado a criação e consumo de mídias. To chamando esse projeto de SketchPhone.</p>
+<p>Um dos passos me dói é o consumo de músicas. Como escutar música de forma offline num mundo onde o spotify existe?</p>
+<p>Faça igual aos antigos gregos e mesopotamicos e baixe mp3!!!!!!!</p>
+<p>Ta!! Vou baixar só mp3!! Iuhuuu!!!!! Mas perai, eu vou ter que baixar tudo direto no celular?</p>
+<p>Eu tinha pensado em baixar no pc, e jogar esse diretório no soulseek. Mas, eu ainda queria que ao adicionar algo nessa pasta (principalmente, via beets (uma das ferramentas mais legais que eu já vi escrita em python)), meu SketchPhone já tivesse a música lá tambem. Ou seja, será que tem como sincronizar o estado de duas pastas em dispositivos diferentes?</p>
+<p>É aí que entra o SyncThing!!!</p>
+<p>O syncthing resolve literalmente o problema acima!!!</p>
+<p>Instalei dentro no container docker, e configurei a ferramenta pra rodar só quando tiver no wifi daqui de casa (unico lugar onde se deve conectar o SketchPhone na internet, é na sua casa).</p>
+<p>Eu configurei para o meu computador ser um diretório que só envia, e no Sketch ser um diretório que só recebe.</p>
+<p>Gosto de imaginar que o diretório de musicas do meu computador é um portal para o celular.</p>
+<p>Hoje eu passei o dia organizando minha coleção de mp3, e pelo menos agora, eu faço seguro que qualquer alteraçãozinha, vai ta repercutido.</p>
 
-            </div>
-        
-            <div class="post-short-list h-entry">
-                <div class="post-header">
-                    <header>
-                        <h2 class="p-name post-title"><a class="u-url" href="/posts/primeiro-post/">Meu Primeiro blogpost</a></h2>
-                        
-
-                    </header>
-                </div>
-                
-                
-
-
-
-<div class="post-info noselect">
-    
-        <div class="post-date dt-published">
-            <time datetime="2026-03-09">2026-03-09</time>
-            
         </div>
+    </article>
+
+    
+    
     
 
-    <a class="post-hidden-url u-url" href="/posts/primeiro-post/">/posts/primeiro-post/</a>
-    <a href="https://jhowtromundo.site/" class="p-name p-author post-hidden-author h-card" rel="me">map[name:Jhow]</a>
+    
 
 
-    <div class="post-taxonomies">
-        
-        
-            <ul class="post-tags">
-                
-                    
-                    <li><a href="/tags/untagged">#untagged</a></li>
-                
-            </ul>
-        
-        
-    </div>
-</div>
 
-            </div>
-        
-        
-    </div>
 
+
+
+
+
+    
+    
+    
+    
 
         </main>
         

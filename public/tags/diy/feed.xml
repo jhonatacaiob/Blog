@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+    <title>De Outro Mundo</title>
+    <link>https://jhowtromundo.site/</link>
+    <description>Recent blog posts on De Outro Mundo</description>
+    
+    <generator>Hugo (https://gohugo.io)</generator>
+    
+    <language>pt-BR</language>
+    
+    <managingEditor></managingEditor>
+    
+    <webMaster></webMaster>
+    
+    <lastBuildDate>Wed, 18 Mar 2026 02:59:04 -0300</lastBuildDate>
+    
+    <atom:link href="https://jhowtromundo.site/tags/diy/feed.xml" rel="self" type="application/rss+xml" />
+    
+
+    <item>
+      <title>Sincronizando minha coleção de música com syncthing</title>
+      <link>https://jhowtromundo.site/posts/sincronizando-meus-arquivos-mp3/</link>
+      <pubDate>Wed, 18 Mar 2026 02:59:04 -0300</pubDate>
+      
+      <author></author>
+
+      
+      
+      
+      
+
+      <description>
+       ## Sincronizando minha coleção de música com syncthing Ultimamente, tenho trabalhado em transformar meu velho Sansung A53 em um dispositivo offline-first, onde não vai entrar uma unica unidade de software proprietário, dedicado a criação e consumo de mídias. To chamando esse projeto de SketchPhone.
+Um dos passos me dói é o consumo de músicas. Como escutar música de forma offline num mundo onde o spotify existe?
+Faça igual aos antigos gregos e mesopotamicos e baixe mp3!!!!!!!
+
+      </description>
+      <guid isPermaLink="true">https://jhowtromundo.site/posts/sincronizando-meus-arquivos-mp3/</guid>
+    </item>
+    
+  </channel>
+</rss>
