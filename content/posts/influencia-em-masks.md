@@ -64,6 +64,6 @@ Você também recebe +1 em qualquer movimento de arquétipo direcionado à perso
 - Você também pode optar por tirar proveito da sua Influência, usando-a
   contra a outra pessoa para produzir efeito imediato.
   > > Quando tirar vantagem da sua Influência sobre alguém, renuncie à Influência para escolher um:
-      - dar -2 em um movimento que a personagem alvo acabou de fazer (após a jogada de dados)
-      - infligir uma condição nela
-      - receber +1 adicional em uma jogada contra ela (após a jogada de dados)
+  - dar -2 em um movimento que a personagem alvo acabou de fazer (após a jogada de dados)
+  - infligir uma condição nela
+  - receber +1 adicional em uma jogada contra ela (após a jogada de dados)
