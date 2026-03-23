@@ -37,6 +37,10 @@ unsafe = true # Enable unsafe mode to have a better experience
 [markup.highlight]
 style              = 'catppuccin-mocha'
 
+[[module.mounts]]
+source = 'static/img'
+target = 'static'
+
 [params.anubis2]
   colorTheme = "auto"
 

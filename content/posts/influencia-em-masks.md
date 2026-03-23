@@ -2,6 +2,7 @@
 date = '2026-03-21T10:38:38-03:00'
 draft = false
 title = 'Influencia Em Masks'
+slug = "influenca-em-masks"
 tags = ["pbta", "masks", "roteiro"]
 +++
 
@@ -64,6 +65,6 @@ Você também recebe +1 em qualquer movimento de arquétipo direcionado à perso
 - Você também pode optar por tirar proveito da sua Influência, usando-a
   contra a outra pessoa para produzir efeito imediato.
   > > Quando tirar vantagem da sua Influência sobre alguém, renuncie à Influência para escolher um:
-  - dar -2 em um movimento que a personagem alvo acabou de fazer (após a jogada de dados)
-  - infligir uma condição nela
-  - receber +1 adicional em uma jogada contra ela (após a jogada de dados)
+      - dar -2 em um movimento que a personagem alvo acabou de fazer (após a jogada de dados)
+      - infligir uma condição nela
+      - receber +1 adicional em uma jogada contra ela (após a jogada de dados)
